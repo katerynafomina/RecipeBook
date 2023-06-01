@@ -219,7 +219,7 @@ namespace RecipeBook
             Controls.Add(textBoxRecipes);
             Controls.Add(right);
             Controls.Add(left);
-            Controls.Add(buttonLeave);
+            Controls.Add(buttonback);
             if (ingradientsSearch.isEmpty())
             {
                 textBoxRecipes.Text = "рецептів не знайдено";

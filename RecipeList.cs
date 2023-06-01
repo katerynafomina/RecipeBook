@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace RecipeBook
 {
-    public class RecipesList
+    public interface IRecipeList
+    {
+        public List<RecipeItem> SearchByName(string name);
+        public List<RecipeItem> SearchByIngredients(List<string> ingredients);
+    }
+    public class RecipesList:IRecipeList
     {
         public List<RecipeItem> recipes = new List<RecipeItem> { };
         public RecipesList(string filename)

@@ -209,6 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::RecipeBook.Properties.Resources._1617827429_9_p_fon_starii_list_bumagi_11;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1134, 1198);
             this.Controls.Add(this.categSearch);

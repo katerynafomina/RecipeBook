@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAllRecipes));
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridViewRecipes = new System.Windows.Forms.DataGridView();
@@ -68,7 +68,8 @@
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Transition1.SetDecoration(this.button2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.button2.Location = new System.Drawing.Point(425, 1254);
+            this.button2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(421, 1284);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(353, 46);
             this.button2.TabIndex = 0;
@@ -81,8 +82,10 @@
             this.textBoxRecipes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxRecipes.BackColor = System.Drawing.Color.Tan;
             this.textBoxRecipes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2Transition1.SetDecoration(this.textBoxRecipes, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.textBoxRecipes.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.textBoxRecipes.Location = new System.Drawing.Point(158, 546);
             this.textBoxRecipes.Multiline = true;
             this.textBoxRecipes.Name = "textBoxRecipes";
@@ -95,8 +98,11 @@
             this.recipeIcon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.recipeIcon.BackgroundImage = global::RecipeBook.Properties.Resources._1617827429_9_p_fon_starii_list_bumagi_11;
+            this.recipeIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.recipeIcon.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.guna2Transition1.SetDecoration(this.recipeIcon, Guna.UI2.AnimatorNS.DecorationType.BottomMirror);
-            this.recipeIcon.Location = new System.Drawing.Point(303, 43);
+            this.recipeIcon.Location = new System.Drawing.Point(270, 38);
             this.recipeIcon.Name = "recipeIcon";
             this.recipeIcon.Size = new System.Drawing.Size(572, 472);
             this.recipeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -133,25 +139,27 @@
             // guna2Transition1
             // 
             this.guna2Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation2;
             // 
             // FormAllRecipes
             // 
+            this.BackgroundImage = global::RecipeBook.Properties.Resources._1617827429_9_p_fon_starii_list_bumagi_11;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1167, 1342);
             this.Controls.Add(this.button_right);
             this.Controls.Add(this.button_left);
